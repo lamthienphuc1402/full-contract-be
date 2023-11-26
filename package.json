@@ -1,0 +1,21 @@
+{
+  "name": "Property-BE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thienbao0106/Property-BE.git",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sequelize/core": "^7.0.0-alpha.29",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.35.1",
+    "tedious": "^16.6.0"
+  }
+}
